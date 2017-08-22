@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--- Basic Page Needs==================================================-->
+    <meta charset="utf-8">
+    <title>Deadline</title>
+    <meta name="description" content="Your Business, Our Future. Give Back to Students.">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="styles.css">
+    
+    
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"> 
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="timer">
+                <h4>School Starts</h4>
+                <p>2 Days</p>
+                <div class="line"></div>
+            </div>
+        </div>
+        <i class="icon-plus bottom-left" onclick="addNew"></i>
+    </main>
+    
+    <div class="new">
+        <div class="form">
+            <input id="title" class="formItem" placeholder="Event Title">
+            <input id="date" type="date" class="formItem" placeholder="mm/dd/yy">
+            <button class="submit" id="submit" name="submit" onclick="finality(true)">Create Event</button>
+            <button class="cancel" id="submit" name="submit" onclick="finality(false)">Cancel</button>
+        </div>
+    </div>
+    
+    <!-- Java Script==================================================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

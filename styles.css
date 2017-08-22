@@ -1,0 +1,139 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+
+html{
+    background-image: linear-gradient(45deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+    
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+p, input[type=date]{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: .5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 1em;
+}
+
+main {
+    font-size: 2em;
+    height: 100%;
+    width: 300px;
+    
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.line {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
+}
+
+.new {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.formItem {
+    margin: .4em 0px;
+    border: none;
+    font-size: 3em;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border-bottom: 2px solid transparent;
+    
+    
+}
+
+.formItem:focus{
+    content: '';
+    transition: all 1s ease;
+    outline: 0;
+    border-color: white;
+}
+
+
+
+.submit {
+    margin: .4em 0px;
+    border: none;
+    font-size: 3em;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    transition: all ease .5s;
+}
+
+.submit:focus{
+    outline: 0;
+    background-color: #2D99FF;
+    transition: all ease .5s;
+}
+
+.submit:hover{
+    background-color: #2D99FF;
+    transition: all ease .5s;
+}
+
+.cancel {
+    margin: .4em 0px;
+    border: none;
+    font-size: 3em;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    transition: all ease .5s;
+}
+
+.cancel:focus{
+    outline: 0;
+    background-color: mediumvioletred;
+    transition: all ease .5s;
+}
+
+.cancel:hover{
+    background-color: mediumvioletred;
+    transition: all ease .5s;
+}
